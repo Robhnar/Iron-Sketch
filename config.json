@@ -1,0 +1,39 @@
+{
+  "dataDir": "data",
+  "paths": {
+    "models": "data/models",
+    "datasets": "data/datasets",
+    "outputs": "data/outputs",
+    "cache": "data/cache",
+    "backups": "data/backups",
+    "logs": "data/logs",
+    "metadata": "data/metadata"
+  },
+  "training": {
+    "defaultEpochs": 20,
+    "defaultBatchSize": 4,
+    "defaultLearningRate": 0.001,
+    "defaultOptimizer": "adam",
+    "earlyStoppingPatience": 5
+  },
+  "processing": {
+    "targetWidth": 384,
+    "targetHeight": 256,
+    "defaultSpeed": 20,
+    "defaultScale": 0.5,
+    "closeKernelSize": 3,
+    "minContourArea": 100,
+    "simplificationEpsilon": 1.0
+  },
+  "models": {
+    "defaultArchitecture": "unet",
+    "supportedArchitectures": [
+      "unet",
+      "deeplabv3plus",
+      "fcn8s",
+      "deeplabv3plus_resnet50",
+      "deeplabv3_hf",
+      "deeplabv3_google"
+    ]
+  }
+}
