@@ -28,9 +28,9 @@ A production-ready React web application that transforms color images into robot
 
 - Train custom CNN models with your datasets
 - Support for three architectures:
-  - U-Net (7.7M parameters)
-  - DeepLabV3+ (2.5M parameters)
-  - FCN-8s (14M parameters)
+  - U-Net 
+  - DeepLabV3+ 
+  - FCN-8s 
 - Configurable training parameters:
   - Epochs (1-200)
   - Learning rate
