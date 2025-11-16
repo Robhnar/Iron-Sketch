@@ -21,7 +21,7 @@ A production-ready React web application that transforms color images into robot
   - Vector overlay visualization
   - JSON path coordinates
   - ABB robot script
-  - G-code for CNC plasma cutters
+  
   - Parameters file
 
 ### 2. Train Models Tab
